@@ -27,6 +27,9 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-data-redis:1.4.0.RELEASE")
+    compile('io.lettuce:lettuce-core:5.0.3.RELEASE')
     testCompile("junit:junit")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
